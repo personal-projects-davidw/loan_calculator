@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Loan Calculator</title>
+</head>
+<body>
+    <div class="main-card">
+        <header>
+            <h1>How much would you like to borrow?</h1>
+            <p>Representative APR for any generated quote is self selected.  Actual rates and repayment terms may differ and will be based on your personal circumstances, the loan amount and term. This tool in no way constitues an offer to lend money.</p>
+        </header>
+        <section>
+            <div class="slide">
+                <label for="amount">Amount</label><br>
+                <input name="amount" type="range" min="1" max="100" value="50" class="slider" id="amount">
+            </div>
+            <div class="slide">
+                <label for="term">Term</label><br>
+                <input name="term" type="range" min="1" max="100" value="50" class="slider" id="term">
+            </div>
+            <div class="slide">
+                <label for="apr">APR</label><br>
+                <input name="apr" type="range" min="1" max="100" value="50" class="slider" id="apr">
+            </div>
+        </section>
+        
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
