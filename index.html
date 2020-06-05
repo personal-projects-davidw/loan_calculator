@@ -17,23 +17,20 @@
         <section>
             <div class="slide">
                 <label for="amount">Amount</label>
-                <div class="output"></div>
-                <input name="amount" type="range" min="1" max="100" value="50" class="slider" id="amount">
-                
+                <div class="output amount">£25000</div>
+                <input name="amount" type="range" min="1000" max="50000" step="1000" value="25000" class="slider" id="amount">
             </div>
             <div class="slide">
                 <label for="term">Term</label>
-                <div class="output"></div>
-                <input name="term" type="range" min="1" max="100" value="50" class="slider" id="term">
+                <div class="output term">36</div>
+                <input name="term" type="range" min="0" max="60" step="6" value="36" class="slider" id="term">
             </div>
             <div class="slide">
                 <label for="apr">APR</label>
-                <div class="output"></div>
-                <input name="apr" type="range" min="1" max="100" value="50" class="slider" id="apr">
+                <div class="output apr">2%</div>
+                <input name="apr" type="range" min="0" max="10" step="0.1" value="2" class="slider" id="apr">
             </div>
         </section>
-        
-        
     </div>
     <script src="app.js"></script>
 </body>
