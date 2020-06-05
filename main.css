@@ -98,4 +98,40 @@ header p {
     cursor: pointer;
   }
 
+  .results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .single-result {
+    border: 2px solid rgba(89, 94, 96, 0.2);;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+
+  .single-result > h2 {
+    font-weight: 300;
+    font-size: 16px;
+    color: var(--off-black--);
+    text-align: center;
+    margin: 0;
+  }
+
+  .single-result > h3 {
+    font-size: 32px;
+    font-weight: 300;
+    margin: 0;
+    color: var(--pri-color--);
+    text-align: center;
+    /*background-color: white;
+    padding: 4px 8px;
+    box-shadow: 0 0 1px 1px var(--off-black--);
+    -webkit-box-shadow: 0 0 1px 1px var(--off-black--);
+    -moz-box-shadow: 0 0 1px 1px var(--off-black--);*/
+  }
+
+  
+
   
